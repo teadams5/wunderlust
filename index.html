@@ -271,9 +271,9 @@
             <h3>Contact Us</h3>
             <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
                 <label for="fname">First Name<span class="required">*</span></label>
-                <input type="text" id="fName" placeholder="Enter first name" name="first-name" required>
+                <input type="text" id="fname" placeholder="Enter first name" name="first-name" required>
                 <label for="lname">Last Name<span class="required">*</span></label>
-                <input type="text" id="lName" placeholder="Enter last name" name="last-name" required>
+                <input type="text" id="lname" placeholder="Enter last name" name="last-name" required>
                 <fieldset>
                     <legend>Contact Method<span class="required">*</span></legend>
                     <input type="radio" id="preferEmail" name="contact-method" value="preferEmail" required>
@@ -289,7 +289,7 @@
                 <input type="tel" id="phone" placeholder="Enter telephone number" name="phone-number" required>
                 <label for="destination">Destination<span class="required">*</span></label>
                 <select id="destination" name="destination" required>
-                    <option>-- Select Destination --</option>
+                    <option value="">-- Select Destination --</option>
                     <option>Barcelona</option>
                     <option>Granada</option>
                     <option>Ibiza</option>
@@ -301,7 +301,7 @@
                 </select>
                 <label for="travel_time">Travel Time<span class="required">*</span></label>
                 <select id="travel_time" name="travel-time">
-                    <option>-- Select Travel Time --</option>
+                    <option value="">-- Select Travel Time --</option>
                     <option>Fall</option>
                     <option>Winter</option>
                     <option>Spring</option>
